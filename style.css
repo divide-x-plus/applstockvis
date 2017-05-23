@@ -1,0 +1,103 @@
+svg {
+  font-family: 'Lato';
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.container {
+  width: 100%;
+}
+
+#graphic {
+  padding-top: 200px;
+}
+
+#sections {
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  z-index: 90;
+  padding-bottom: 200px;
+}
+
+.step {
+  margin-bottom: 200px;
+  font-family: "TiemposTextWeb-Regular","Georgia";
+  font-size: 16px;
+  line-height: 20px;
+  color: #767678;
+}
+
+#sections .title {
+  font-family: Arial,"san-serif";
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 2px;
+  color: #262626;
+  line-height: 1.2em;
+}
+
+#vis {
+  padding-top: 80px;
+  display: inline-block;
+  position: fixed;
+  top: 60px;
+  z-index: 1;
+  margin-left: 200px;
+}
+
+#vis .title {
+  font-size: 1.2em;
+  text-anchor: middle;
+  fill: #647f92;
+  stroke: none;
+}
+
+#vis .sub-title {
+  font-size: 75px;
+  text-anchor: middle;
+  fill: #4d4f4f;
+  stroke: none;
+}
+
+.x.axis path, .x.axis line,
+.y.axis path, .y.axis line  {
+  fill: none;
+  stroke: lightgrey;
+  shape-rendering: crispEdges;
+}
+
+.line {
+  fill: none;
+  stroke: #607D8B;
+  stroke-linejoin: miter;
+  stroke-linecap: square;
+  stroke-width: 0.5px;
+}
+
+.dot {
+  fill: none;
+  stroke: #e8336d;
+  stroke-width: 2px;
+  r: 25px;
+}
+
+.dots {
+  fill: steelblue;
+  r: 2px;
+}
+
+.annotation path {
+  stroke: var(--annotation-context-color);
+}
+
+.text {
+  fill:  #00796b;
+  background-color: white;
+}
+
+.rect {
+  fill: steelblue;
+}
